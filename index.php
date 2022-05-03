@@ -262,7 +262,7 @@
                 </div>
 
                 <div class="col-md-6 form-group">
-                  <input type="submit" class="btn btn-primary d-block w-100" value="Send Message">
+                  <input type="submit" class="btn btn-primary d-block w-100" value="Envoyer le message">
                 </div>
               </div>
 
