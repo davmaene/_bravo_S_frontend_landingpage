@@ -181,7 +181,7 @@
           <div class="col-md-4 me-auto">
             <h2 class="mb-4">Paiement par portefeuil éléctronique</h2>
             <p class="mb-4">Une des meilleur méthode de paiement est d'utiliser son portefeuil éléctronique | cette méthode est simple, rapide et efficace.</p>
-            <p><a href="#" class="btn btn-primary">Commencer avec <b>Payondego</b></a></p>
+            <p><a href="https://web.payondego.com" class="btn btn-primary">Commencer avec <b>Payondego</b></a></p>
           </div>
           <div class="col-md-6" data-aos="fade-left">
             <img src="assets/img/screen6.jpg" alt="Image" class="img-fluid w-50">
@@ -195,8 +195,8 @@
         <div class="row align-items-center">
           <div class="col-md-4 ms-auto order-2">
             <h2 class="mb-4">Paiement directe</h2>
-            <p class="mb-4">Cette méthode offre plusieurs possible lors du paiement des services, entre autre payer par un autre numero de téléphone que le votre</p>
-            <p><a href="#" class="btn btn-primary">Commencer avec <b>Payondego</b></a></p>
+            <p class="mb-4">Cette méthode offre plusieurs possibilité lors du paiement des services, entre autre payer par un autre numero de téléphone que le votre</p>
+            <p><a href="https://web.payondego.com" class="btn btn-primary">Commencer avec <b>Payondego</b></a></p>
           </div>
           <div class="col-md-6" data-aos="fade-right">
             <img src="assets/img/screen7.jpg" alt="Image" class="img-fluid w-50">
