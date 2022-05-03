@@ -239,7 +239,7 @@
 
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
+                  <label for="name">Nom</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -247,7 +247,7 @@
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
                 <div class="col-md-12 form-group mt-3">
-                  <label for="name">Subject</label>
+                  <label for="name">Sujet</label>
                   <input type="text" class="form-control" name="subject" id="subject" required>
                 </div>
                 <div class="col-md-12 form-group mt-3">
@@ -258,7 +258,7 @@
                 <div class="col-md-12 mb-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Votre message a éte envoyer avec succès !</div>
                 </div>
 
                 <div class="col-md-6 form-group">
