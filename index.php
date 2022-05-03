@@ -41,10 +41,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="?=_payondego">Acceuil</a></li>
-          <li><a href="pages/features">Fonctionnalités</a></li>
-          <li><a href="">Commencer</a></li>
-          <li><a href="pages/contact/">Contacts</a></li>
+          <li><a class="active" href="/">Acceuil</a></li>
+          <li><a href="#features">Fonctionnalités</a></li>
+          <li><a href="https://web.payondego.com">Commencer</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -205,6 +205,74 @@
       </div>
     </section>
 
+    <section class="section">
+      <div class="container">
+        <div class="row mb-5 align-items-end">
+          <div class="col-md-6" data-aos="fade-up">
+
+            <h2>Formulaire de contact</h2>
+            <p class="mb-0">Pour toute préocupation faites nous savoir; nous vous reviendrons dans le plus bref delais</p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 ms-auto order-2" data-aos="fade-up">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <strong class="d-block mb-1">Address</strong>
+                <span>Goma, République Décratique du Congo</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Phone</strong>
+                <span>+243 973 609 322</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Email</strong>
+                <span>contact@payondego.com</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+                <div class="col-md-12 form-group mt-3">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required>
+                </div>
+                <div class="col-md-12 form-group mt-3">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" required></textarea>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="col-md-6 form-group">
+                  <input type="submit" class="btn btn-primary d-block w-100" value="Send Message">
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- ======= Testimonials Section ======= -->
     <section class="section border-top border-bottom d-none">
       <div class="container">
@@ -310,7 +378,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0">
-            <h2>Starts Publishing Your Apps</h2>
+            <h2>Télécharger une aoolication compatible à votre téléphone</h2>
           </div>
           <div class="col-md-5 text-center text-md-end">
             <p>
