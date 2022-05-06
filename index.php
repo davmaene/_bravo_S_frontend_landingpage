@@ -15,6 +15,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <script src="assets/vendor/jquery/jq.js"></script>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -41,9 +42,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="/">Acceuil</a></li>
+          <li onclick="scrollto('features')"><a class="" href="#">Acceuil</a></li>
           <li><a href="#features">Fonctionnalités</a></li>
           <li><a href="https://web.payondego.com">Commencer</a></li>
+          <li><a href="#start">Télécharger</a></li>
           <li><a href="#contact">Contacts</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -134,7 +136,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="#features">
 
       <div class="container">
         <div class="row justify-content-center text-center mb-5" data-aos="fade">
@@ -205,7 +207,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="#contact">
       <div class="container">
         <div class="row mb-5 align-items-end">
           <div class="col-md-6" data-aos="fade-up">
@@ -273,106 +275,6 @@
       </div>
     </section>
 
-    <!-- ======= Testimonials Section ======= -->
-    <section class="section border-top border-bottom d-none">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-4">
-            <h2 class="section-heading">Review From Our Users</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center text-center">
-          <div class="col-md-7">
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>Excellent App!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Jean Doe</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>This App is easy to use!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Johan Smith</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="review text-center">
-                    <p class="stars">
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill"></span>
-                      <span class="bi bi-star-fill muted"></span>
-                    </p>
-                    <h3>Awesome functionality!</h3>
-                    <blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                        provident voluptates consectetur maiores quos.</p>
-                    </blockquote>
-
-                    <p class="review-user">
-                      <img src="assets/img/person_3.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
-                      <span class="d-block">
-                        <span class="text-black">Jean Thunberg</span>, &mdash; App User
-                      </span>
-                    </p>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Testimonials Section -->
-
     <!-- ======= CTA Section ======= -->
     <section class="section cta-section" id="#start">
       <div class="container">
@@ -390,6 +292,10 @@
                 <i class="bx bxl-play-store"></i>
                 <span>Google play</span>
               </a>
+              <a href="https://play.google.com/store/apps/details?id=com.davidmaene.darpkg" target="_blank" class="btn d-inline-flex align-items-center">
+                <i class="bx bxl-play-store"></i>
+                <span>Google play</span>
+              </a>
             </p>
           </div>
         </div>
@@ -403,9 +309,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-4 mb-md-0">
-          <h3>About Payondego</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
-            dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
+          <h3>A propos de Payondego</h3>
+          <p>Retrouvez Payondego sur tous les réseaux sociaux | restez connecter avec nous</p>
           <p class="social">
             <a href="#"><span class="bi bi-twitter"></span></a>
             <a href="#"><span class="bi bi-facebook"></span></a>
@@ -416,28 +321,29 @@
         <div class="col-md-7 ms-auto">
           <div class="row site-section pt-0">
             <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Navigation</h3>
+              <h3>Navigations</h3>
               <ul class="list-unstyled">
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Fonctionnalités</a></li>
+                <li><a href="#">Commencer</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">
               <h3>Services</h3>
               <ul class="list-unstyled">
-                <li><a href="#">Team</a></li>
+                <li><a href="#">Equipe</a></li>
                 <li><a href="#">Collaboration</a></li>
-                <li><a href="#">Todos</a></li>
-                <li><a href="#">Events</a></li>
+                <li><a href="#">A propos de nous</a></li>
+                <!-- <li><a href="#"></a></li> -->
               </ul>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">
-              <h3>Downloads</h3>
+              <h3>Téléchargement</h3>
               <ul class="list-unstyled">
-                <li><a href="#">Get from the App Store</a></li>
-                <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.davidmaene.darpkg">Get from the Play Store</a></li>
+                <li><a href="#">Téléchargement directe</a></li>
+                <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.davidmaene.darpkg">Play Store</a></li>
+                <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.davidmaene.darpkg">App Store</a></li>
               </ul>
             </div>
           </div>
@@ -448,13 +354,7 @@
         <div class="col-md-7">
           <p class="copyright">&copy; Copyright Bravo Compagny. All Rights Reserved</p>
           <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=SoftLand
-          -->
-            Designed by <a href="https://davidmaene.reitecinfo.net/">Payondego</a>
+            Designed by <a href="https://davmaene.github.io/">Payondego</a>
           </div>
         </div>
       </div>
@@ -472,7 +372,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    function scrollto(div)
+    {
+      alert(div)
+      $('html,body').animate(
+      {
+        scrollTop: $(`#${div}`).offset().top
+      },'slow');
+    }
+  </script>
 </body>
 
 </html>
