@@ -73,7 +73,7 @@
               <p class="mb-5" data-aos="fade-right" data-aos-delay="100">
                 Application de recharge et de paiement de l'éléctrité, Chambre d'hôtels, <br>parking automobiles, Evenements par mobile Money et USSD
               </p>
-              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Commencer avec <b><strong>Payondego</strong></b> web</a></p>
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a target="_blank" href="https://web.payondego.com/" class="btn btn-outline-white">Commencer avec <b><strong>Payondego</strong></b> web</a></p>
             </div>
             <div class="col-lg-4 iphone-wrap">
               <img src="assets/img/screen1.jpg?io" alt="Image" class="phone-1" data-aos="fade-right">
