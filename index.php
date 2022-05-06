@@ -41,7 +41,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li onclick="scrollto('hero')"><a href="#hiro">Acceuil</a></li>
+          <li><a href="#hiro">Acceuil</a></li>
           <li><a href="#features">Fonctionnalités</a></li>
           <li><a href="https://web.payondego.com">Commencer</a></li>
           <li><a href="#start">Télécharger</a></li>
