@@ -275,7 +275,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0">
-            <h2>Télécharger une aoolication compatible à votre téléphone</h2>
+            <h2>Télécharger une application compatible à votre téléphone</h2>
           </div>
           <div class="col-md-5 text-center text-md-end" style="flex-direction: column; align-items: center;">
             <!-- <p> -->
@@ -292,7 +292,7 @@
                   </a>
               </div>
               <div class="w-100">
-                <a href="/download" class="btn d-inline-flex align-items-center">
+                <a href="download/" class="btn d-inline-flex align-items-center">
                     <i class="bx bxl-play-store"></i>
                     <span>Téléchargement directe</span>
                   </a>
