@@ -44,7 +44,7 @@
           <li><a href="#hiro">Acceuil</a></li>
           <li><a href="#features">Fonctionnalités</a></li>
           <li><a href="https://web.payondego.com">Commencer</a></li>
-          <li><a href="#start">Télécharger</a></li>
+          <li><a href="#start">Téléchargement</a></li>
           <li><a href="#contact">Contacts</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -292,7 +292,7 @@
                   </a>
               </div>
               <div class="w-100">
-                <a href="https://play.google.com/store/apps/details?id=com.davidmaene.darpkg" target="_blank" class="btn d-inline-flex align-items-center">
+                <a href="/download" class="btn d-inline-flex align-items-center">
                     <i class="bx bxl-play-store"></i>
                     <span>Téléchargement directe</span>
                   </a>
